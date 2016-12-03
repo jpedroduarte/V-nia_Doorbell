@@ -33,3 +33,7 @@ userCodes.c
 # Debug files
 *.dSYM/
 *.su
+
+build/*
+dist/*
+*~
