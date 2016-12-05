@@ -6,7 +6,7 @@
  * bit5 to bit8 size of the sequence (1's)
  */
 
-const unsigned char morse[36]={
+const char morse[36]={
     2<<size_offset | 0b01,      //A
     4<<size_offset | 0b1000,    //B
     4<<size_offset | 0b1010,    //C

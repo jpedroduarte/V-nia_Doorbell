@@ -64,7 +64,7 @@
 // live documentation
 
 #define size_offset 5
-const unsigned char morse[36];
+extern const unsigned char morse[36];
 
 #ifdef	__cplusplus
 extern "C" {

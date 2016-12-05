@@ -1,11 +1,11 @@
 #ifndef DOORUTILS_H
 #define	DOORUTILS_H
 
-#define ticks_in_20ms 312
+#define TICKS_20MS 310U
 
-void openDoor();
+extern void openDoor();
 
-int checkCode();
+extern int checkCode();
 
 #endif	/* DOORUTILS_H */
 
